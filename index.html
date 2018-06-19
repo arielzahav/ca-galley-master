@@ -20,67 +20,75 @@
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
+  <!-- Custom styles contact Me -->
+  <link href="css/contact-me.css" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link href="css/ca-gallery.css" rel="stylesheet">
 
 </head>
 
 <body id="page-top">
-  <div class="offcanvas-btn" onClick="openCanvas()">
+  <!-- <div class="offcanvas-btn" onClick="openCanvas()">
     <i class="fa fa-comment" aria-hidden="true"></i>
   </div>
   <aside class="offcanvas-aside">
 
-    <!-- Contact -->
-    <section id="contact">
-        <h4>Contact Me</h4>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3">
-            <div class="well well-sm">
-              <form class="form-horizontal" action="" method="post">
-                <fieldset>
-                  <legend class="text-center"> Contact us </legend>
-
-                  <!-- Name input-->
-                  <div class="form-group">
-                    <label class="col-md-3 control-label" for="name">Name</label>
-                    <div class="col-md-9">
-                      <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
-                    </div>
-                  </div>
-
-                  <!-- Email input-->
-                  <div class="form-group">
-                    <label class="col-md-3 control-label" for="email">Your E-mail</label>
-                    <div class="col-md-9">
-                      <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
-                    </div>
-                  </div>
-
-                  <!-- Message body -->
-                  <div class="form-group">
-                    <label class="col-md-3 control-label" for="message">Your message</label>
-                    <div class="col-md-9">
-                      <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
-                    </div>
-                  </div>
-
-                  <!-- Form actions -->
-                  <div class="form-group">
-                    <div class="col-md-12 text-right">
-                      <button type="submit" class="btn btn-primary btn-lg">Submit</button>
-                    </div>
-                  </div>
-                </fieldset>
-              </form>
-            </div>
+    <div class="row">
+      <div class="col-centered">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h1>Contact Me</h1>
           </div>
+          <form action="" method="POST">
+            <div class="panel-body">
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-addon">
+                    <i class="glyphicon glyphicon-user blue"></i>
+                  </span>
+                  <input type="text" name="InputName" placeholder="Name" class="form-control" autofocus="autofocus" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-addon">
+                    <i class="glyphicon glyphicon-envelope blue"></i>
+                  </span>
+                  <input type="email" name="InputEmail" placeholder="Email" class="form-control" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-addon">
+                    <i class="glyphicon glyphicon-phone blue"></i>
+                  </span>
+                  <input type="number" name="InputCno" placeholder="Phone" class="form-control" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-addon">
+                    <i class="glyphicon glyphicon-comment blue"></i>
+                  </span>
+                  <textarea name="InputMessage" rows="6" class="form-control" type="text" required></textarea>
+                </div>
+              </div>
+              <div class="">
+                <button type="submit" class="btn btn-info pull-right">Send
+                  <span class="glyphicon glyphicon-send"></span>
+                </button>
+                <button type="reset" value="Reset" name="reset" class="btn">Reset
+                  <span class="glyphicon glyphicon-refresh"></span>
+                </button>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
-    </section>
+    </div>
 
-  </aside>
+
+  </aside> -->
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
@@ -133,7 +141,8 @@
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <i class="fa fa-circle fa-stack-2x text-primary"></i>
-            <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+            <!-- <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i> -->
+            <i class="fa fa-html5 fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">E-Commerce</h4>
           <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex
@@ -165,13 +174,13 @@
   <section class="bg-light" id="portfolio">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 text-center">
+         <div class="col-lg-12 text-center">
           <h2 class="section-heading">Portfolio</h2>
           <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-4 col-sm-6 portfolio-item">
+      <div class="row port-cont">
+        <!-- <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -254,7 +263,7 @@
             <h4>Window</h4>
             <p class="text-muted">Photography</p>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>

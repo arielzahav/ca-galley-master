@@ -85,9 +85,9 @@ body {
     position: fixed;
     height: 100%;
     z-index: 100000;
-    background: red;
-    width: 40vw;
-    left: -40vw;
+    background: white;
+    width: 30vw;
+    left: -30vw;
     transition: all 0.3s ease;
     display: flex;
     flex-direction: column;
